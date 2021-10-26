@@ -1,0 +1,71 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+h1 {
+    text-align: center;
+}
+#calcContainer {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color:black;
+    width: 400px;
+    height:500px;
+    border-radius: 5px;
+}
+#con1 {
+    display: flex;
+    margin-left: 10px;
+    text-align: right;
+    width: 380px;
+    height: 60px;  
+    background-color: grey;
+    font-size: 24px;
+    margin-top: 10px;
+    justify-content: right;
+}
+#con2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    justify-content: center;
+    width: 380px;
+    margin-bottom: 40px;
+    gap: 5px;
+}
+#result {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+/* Buttons for the calculator */
+
+/* Orange buttons */
+#Ac, #neg, #percentage {
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: orange;
+    border-color: orange;
+    margin-top: 5px;
+}
+
+/* Blue buttons */
+#slash, #multiply, #subtract, #add, #equals {
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    background-color:lightsteelblue;
+    border-color:lightsteelblue;
+}
+
+/* Turquiose buttons */
+#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #decimal {
+    width: 90px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: turquoise;
+    border-color: turquoise;
+    padding: 0%;
+}
